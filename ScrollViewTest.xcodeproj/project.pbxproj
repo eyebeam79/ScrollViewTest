@@ -21,6 +21,7 @@
 		D2982D39187C104F004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982D1B187C104E004E8886 /* UIKit.framework */; };
 		D2982D41187C104F004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982D3F187C104F004E8886 /* InfoPlist.strings */; };
 		D2982D43187C104F004E8886 /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982D42187C104F004E8886 /* ScrollViewTestTests.m */; };
+		D2982D4E187C1078004E8886 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2982D4D187C1078004E8886 /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2982D3E187C104F004E8886 /* ScrollViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982D40187C104F004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982D42187C104F004E8886 /* ScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestTests.m; sourceTree = "<group>"; };
+		D2982D4D187C1078004E8886 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = Resources/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D2982D0B187C104E004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982D4C187C106B004E8886 /* Resources */,
 				D2982D1D187C104E004E8886 /* ScrollViewTest */,
 				D2982D3C187C104F004E8886 /* ScrollViewTestTests */,
 				D2982D16187C104E004E8886 /* Frameworks */,
@@ -150,6 +153,14 @@
 				D2982D3F187C104F004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982D4C187C106B004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982D4D187C1078004E8886 /* image.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 				D2982D30187C104E004E8886 /* Images.xcassets in Resources */,
 				D2982D22187C104E004E8886 /* InfoPlist.strings in Resources */,
 				D2982D2B187C104E004E8886 /* Main.storyboard in Resources */,
+				D2982D4E187C1078004E8886 /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
